@@ -1,0 +1,343 @@
+body,html{
+  font-family:'HelveticaRegular',Helvetica,Arial;
+}
+
+nav{
+  z-index: 10;
+  position: fixed;
+  opacity: 0.8;
+  width: 100%!important;
+}
+.parallax p{
+  z-index: 300;
+}
+.nav-wrapper{
+  z-index: 10;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+nav ul a{
+  color: #555555!important;
+}
+.parallax-container{
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #4378FF;
+  height: 600px!important;
+}
+.deuxiemeImage{
+  height: 800px!important;
+}
+.try h1{
+  display: flex;
+  flex-direction: column;
+  font-size: 100px!important;
+  font-weight: 800;
+}
+.parallax-container h2{
+  font-size: 40px!important;
+}
+#imageaccueil {
+  padding-top: 63px;
+  width: 100%;
+}
+.profil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 50%;
+  margin-left: -350px;
+  z-index: 2;
+  margin-top: -250px;
+  position: absolute;
+  background-color: #333B50;
+  width: 60%;
+  height: 70%;
+  color: white;
+  text-align: center;
+  padding: 10px 60px 10px 60px;
+}
+.profil h5{
+  font-size: 20px;
+}
+.profil p{
+  font-size: 20px;
+}
+#cv{
+  margin-top: 30px;
+  color: white;
+  border: 1px solid #4378FF;
+  width: 200px;
+  padding: 15px;
+  transition: background 0.2s linear;
+}
+#cv:hover{
+  background-color: #4378FF;
+}
+.competence{
+  position: absolute;
+  left: 12%;
+  z-index: 2;
+  margin-top: -400px;
+  color: white;
+}
+h3{
+  color: #4378FF;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.competence ul li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.competence ul li p{
+  font-weight: bolder;
+  padding-bottom: -10px;
+}
+.barreCompetence{
+  position: absolute;
+  margin-left: 100px;
+  z-index: 2;
+  background-color: #4378FF;
+  width: 30px;
+  height: 15px;
+}
+#competence1{
+  animation: animationCompetences 4s forwards;
+}
+#competence2{
+  animation: animationCompetences2 4s forwards;
+}
+#competence3{
+  animation: animationCompetences3 4s forwards;
+}
+#competence4{
+  animation: animationCompetences2 4s forwards;
+}
+#competence5{
+  animation: animationCompetences3 4s forwards;
+}
+
+.MillieuDePage{
+  width: 100%;
+  height: 3000px;
+  background-image: url(../image/mountain.jpg);
+  background-position: top;
+  background-size: 100% 80%;
+}
+.Experience{
+  padding-top: 50px;
+  height: 1400px;
+}
+.pourcentage{
+  padding-left: 48rem;
+}
+
+.barrebleu{
+  width: 10px!important;
+  height: 0;
+  background-color: #4378FF;
+  padding: 0!important;
+}
+
+.MillieuDePage h5{
+  font-size: 2.3rem!important;
+  color: #4378FF;
+  font-weight: bolder;
+}
+.Portfolio{
+  padding-top: 50px;
+}
+.Portfolio h5{
+  font-size: 2.3rem!important;
+  color: #4378FF;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 50px;
+}
+/*.Portfolio a:hover{
+height: 400px;
+}*/
+
+/*video:hover{
+  box-shadow: inset 0 0 0 300px rgba(0, 0, 0, 0.4);
+}
+video{
+  transition: box-shadow 0.4s linear;
+}*/
+.sitePortfolio{
+  height: 300px;
+  transition: box-shadow 0.4s linear;
+}
+#spotify{
+  /*background-image: url(../image/videoSpotify.mp4);*/
+  padding-left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+video{
+  z-index: 1000;
+}
+#AirBnB{
+  height: 300px;
+  background-image: url(../image/airbnb2.jpg);
+  background-size: 140% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Mario{
+  height: 330px;
+  background-image: url(../image/mario.jpg);
+  background-size: 120% 100%;
+  background-position: center;
+}
+#Jeumario{
+  padding-right: 0;
+  padding-left: 0;
+}
+.Formulaire{
+  padding: 150px 50px 150px 50px;
+  margin-top: 100px;
+  height: 600px;
+  background-color: #333B50;
+
+}
+
+.Contact{
+  color: white;
+}
+.inputFormulaire input{
+  background-color: white!important;
+  height: 36px!important;
+}
+
+.inputFormulaire textarea{
+    background-color: white!important;
+    height: 150px!important;
+    border: none;
+}
+#submit{
+  margin-top: 20px!important;
+  background-color: #333B50;
+  border: 1px solid #4378FF;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  transition: background 0.2s linear;
+}
+#submit:hover{
+  background-color: #4378FF;
+}
+
+.iconesbasdepage{
+  width: 200px;
+  margin: auto;
+}
+.iconesbasdepage ul{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+
+}
+.iconesbasdepage i{
+  color: white;
+  font-size: 40px;
+  transition: 0.3s;
+}
+.iconesbasdepage i:hover{
+  transition: 0.3s;
+  transform: rotate(360deg);
+}
+
+footer{
+  height: 150px;
+  width: 100%;
+  background-color: #333B50;
+  color: #BEC7D5;
+  padding-top: 50px;
+  text-align: center;
+}
+#expe1{
+  animation: animationExpe1 1s forwards;
+}
+#expe2{
+  animation: animationExpe1 1s forwards;
+}
+#expe3{
+  animation: animationExpe1 1s forwards;
+}
+#expe4{
+  animation: animationExpe1 1s forwards;
+}
+
+@keyframes animationCompetences {
+  0% {width: 0;}
+  100% {width: 40%;}
+}
+@keyframes animationCompetences2 {
+  0% {width: 0;}
+  100% {width: 50%;}
+}
+@keyframes animationCompetences3 {
+  0% {width: 0;}
+  100% {width: 70%;}
+}
+@keyframes animationExpe1{
+  0% {height: 0;}
+  100% {height: 17rem;}
+}
+
+@media screen and (max-width: 480px){
+  #imageaccueil h1{
+    font-size: 6rem!important;
+    text-align: center;
+  }
+  #imageaccueil h2{
+    font-size: 2rem!important;
+    text-align: center;
+  }
+  .profil{
+    margin-left: 0;
+    left: 20%;
+    margin-top: -200px;
+    padding: 5% 10% 5% 10%!important;
+    display: flex;
+    justify-content: flex-start;
+    height: 85%;
+  }
+  .profil p{
+    font-size: 1rem;
+  }
+  .competence{
+    display: none!important;
+  }
+  .MillieuDePage h5{
+    font-size: 1.5rem!important;
+  }
+  .MillieuDePage p{
+    font-size: 0.8rem!important;
+  }
+  .sitePortfolio{
+    height: 11rem!important;
+  }
+  .Formulaire{
+    margin-top: 5rem;
+    padding: 3rem 1rem 3rem 1rem;
+  }
+  @keyframes animationExpe1{
+    0% {height: 0;}
+    100% {height: 23rem;}
+  }
+}

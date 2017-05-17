@@ -1,0 +1,458 @@
+body {
+    background-image: url(../gallery/bg-albums.png),linear-gradient(50deg,#ff4169
+  0,#7c26f8
+
+      100%);
+
+    background-attachment: fixed;
+    font-family:Helvetica,Arial,sans-serif;
+  }
+
+
+
+  .navbar {
+
+    background-color: rgba(0, 0, 0, 0.64);
+
+    border: none;
+
+    border-radius: 0;
+
+    padding: 20px;
+
+    z-index: 10;
+
+  }
+
+  .navbar-brand {
+
+    background-image: url(../gallery/spotify-vector-logo.png);
+
+    height: 45px;
+
+    width: 150px;
+
+    background-size: contain;
+
+  }
+
+  .navbar .navbar-nav li .menu-basic {
+
+    color: #fff;
+
+    font-weight: bold;
+
+  }
+
+  .navbar .navbar-nav li .menu-basic:hover, .navbar .navbar-nav a:hover {
+
+    color: rgb(96, 98, 121);
+
+    transition: 0.2s ease-in-out;
+
+  }
+
+  .navbar .navbar-nav li .menu-disabled:hover {
+
+    color: white !important;
+
+    cursor: default;
+
+  }
+  .navbar {
+    width: 100%;
+    position: fixed;
+  }
+
+  header {}.carousel {
+
+    height: 80vh;
+    padding-top: 10%;
+    margin-bottom: 12%;
+
+    color: #fff;
+  }
+header .carousel-indicators li{
+display: none;
+}
+  .content-slideshow {
+
+    display: flex;
+
+    flex-direction: column;  align-items: center;}.carousel-inner .item-active p, .item p{
+
+      font-size: 7rem;
+
+      font-weight: bold;
+
+      text-align: center;
+      line-height: 1;
+
+    }
+
+    .row .btn-1{
+
+      padding: 10px 40px;
+
+      border-radius: 50px;
+
+      background-color: #7c25f8;
+
+      border: 2px solid #7c25f8;
+
+      color: white;
+
+      margin-right: 20px;
+
+    }
+
+    .row .btn-1:hover{
+
+      background-color: #9932CC;
+
+      border: 2px solid #9932CC;
+
+    }
+
+    .row .btn-2{
+
+      padding: 10px 40px;
+
+      border-radius: 50px;
+
+      border: 2px solid white;
+
+      color: white;
+
+      background: none;
+
+    }
+
+    .row .btn-2:hover{
+
+      background-color: white;
+
+      color: black;
+
+    }
+
+    .titre p{
+
+      font-size: 100px;
+
+    }
+
+    .cont p{
+
+      font-size: 100px;
+
+    }
+
+    .cont-2 p{
+
+      font-size: 100px;
+
+    }
+
+    .cont .btn-3{
+
+      padding: 10px 40px;
+
+      border-radius: 50px;
+
+      background-color: #7c25f8;
+
+      border: 2px solid #7c25f8;
+
+      color: white;
+
+    }
+
+    .cont .btn-3:hover{
+
+      background-color: #9932CC;
+
+      border: 2px solid #9932CC;
+
+    }
+
+    .cont-2 .btn-4{
+
+      padding: 10px 40px;
+
+      border-radius: 50px;
+
+      background-color: #7c25f8;
+
+      border: 2px solid #7c25f8;
+
+      color: white;
+
+    }
+
+    .cont-2 .btn-4:hover{
+
+      background-color: #9932CC;
+
+      border: 2px solid #9932CC;
+
+    }
+
+    .carousel-control.left{
+      background-image: none;
+    }
+    .carousel-control.right{
+      background-image: none;
+    }
+    #boutonbot a{
+      color: #9bf0e1;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      text-decoration: underline;
+      font-size: 16px;
+      font-weight: 300;
+      width: 100%;
+
+    }
+    #boutonbot a .btn{
+      border-radius: 100%;
+      border-style: solid;
+      color: #9bf0e1;
+      width: 50px;
+      height: 50px;
+    }
+    #boutonbot a .btn:hover{
+      width: 60px;
+      height: 60px;
+      transition: 0.2s;
+    }
+    #boutonbot a .glyphicon{
+    }
+    .container{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: white;
+    }
+    .col-md-6 .para a img:hover{
+      transition: 0.3s;
+      background-color: black;
+
+    }
+    .col-md-6 .paramo{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin-right: 10%;
+      margin-left: 10%;
+      margin-top: 25%;
+      margin-bottom: 25%;
+    }
+    .col-md-6 .paramo h2{
+      color: #7c25f8;
+      font-size: 50px;
+      font-weight: 700;
+    }
+    .col-md-6 .paramo .purple{
+      color: #7c25f8;
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    .col-md-6 .para{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+
+      margin-left: 5%;
+      margin-top: 30%;
+    }
+    .col-md-6 img{
+      width: 270px;
+      height: 270px;
+    }
+    .portable{
+      margin-top: 40%;
+      margin-bottom: 15%;
+    }
+    .portable h1{
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+    }
+    .portable h2{
+      color: #9bf0e1;
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+    }
+    .portable p{
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
+
+    }
+
+    .schema{
+      background-color: #232323;
+      padding-bottom: 10%;
+
+    }
+    .schema img{
+      display: block;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+    .schema p{
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      text-align: center;
+      padding-bottom: 5%;
+
+    }
+    .schema ul{
+      color: white;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .schema li{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .schema li a{
+      text-decoration: underline;
+      color: white;
+      text-transform: uppercase;
+    }
+    .schema .blue{
+      color: #7c25f8;
+    }
+    .prix{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .col-md-7 h1{
+      color: white;
+      font-size: 100px;
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1.2;
+    }
+    .col-md-7 p{
+      color: white;
+      font-weight: 400;
+    }
+
+    .blue2{
+      color: #9bf0e1;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .blanco{
+      color: white;
+      font-size: 40px;
+    }
+    .col-md-7 p #blue3{
+      color: #9bf0e1;
+      font-size: 20px;
+    }
+    #nexusyo{
+      background-image: url(../gallery/nexus.png);
+      width: 300px;
+      height: 600px;
+      background-repeat: no-repeat;
+      padding: 40px 20px;
+      background-size: contain;
+    }
+    #androidyo{
+      width: 100%;
+    }
+    .caca{
+      border-bottom: 1px solid white;
+    }
+    .blue3{
+      color: #9bf0e1;
+    }
+    #condition{
+      color: white;
+      text-align: center;
+      padding-top: 40px;
+    }
+    .backgroundfooter{
+      background-color: black;
+      padding: 5%;
+    }
+#imagefooter{
+  height: 45px;
+  width: 150px;
+}
+footer li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+.copy li{
+  color: #919496;
+}
+.copy a li{
+  color: white;
+}
+.col-md-2 a{
+  color: white;
+}
+.iconfooter{
+  display: flex;
+  justify-content: space-around;
+}
+.iconfooter .border-icon{
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-style: solid #2e2f33;;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #2e2f33;
+  box-sizing: padding-box;
+}
+.fin{
+  margin-top: 80px;
+
+}
+.fin .pays{
+  text-align: right;
+}
+.fin .msgfooter li{
+display: inline;
+font-size: 12px;
+font-weight: 300;
+padding-right: 5px;
+}
+.pays a p{
+  font-size: 12px;
+  font-weight: 300;
+color: #919496;
+}
+.pays a img{
+  width: 2em;
+  height: 1.3em;
+margin-left: 10px;
+}
+.pays p{
+  font-size: 12px;
+  color: #919496;
+  font-weight: 300;
+}

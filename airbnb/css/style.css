@@ -1,0 +1,509 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav-wrapper{
+  background-color: white;
+}
+#textarea{
+  width: 40%;
+}
+.logoair{
+  background-image: url("../gallery/logoair.png");
+  height: 100%;
+  width: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: thin solid #DCE0E0;
+}
+#beinghost{
+  border: medium solid #DCE0E0;
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+  background-color: white;
+  height: 100%;
+}
+#nav-mobile li .yo{
+  height: 100%;
+  margin: 0;
+  line-height: 61px;
+  font-size: 14px;
+  color: rgb(72, 72, 72);
+  text-transform: lowercase;
+  border-left: thin solid #DCE0E0;
+}
+#nav-mobile li{
+  height: 100%;
+}
+.front{
+  background-image: url("../gallery/accueil.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.front h1{
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 8%;
+}
+.front p{
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: -30px;
+}
+.video{
+  display: block;
+  margin: auto;
+  opacity: 0.7;
+  border-radius: 100%;
+  border-style: solid;
+  width: 90px;
+  height: 90px;
+}
+.video .playicon{
+  opacity: 1;
+  color: black;
+  font-size: 50px;
+}
+#recherche h2{
+  color: rgb(74, 74, 74);
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+#formlogement{
+  display: flex;
+  justify-content: center;
+
+}
+#formlogement .arrow{
+  font-size: 50px;
+}
+#lieu{
+  width: 20%;
+  border: thin solid #DCE0E0;
+  height: 42px;
+  width: 305px;
+}
+#date{
+  display: flex;
+  border: thin solid #DCE0E0;
+  height: 42px;
+  width: 305px;
+  justify-content: space-around;
+  align-items: center;
+}
+#date #dep{
+  padding-bottom: 13px;
+}
+
+
+#formlogement .selectoption{
+  width: 10%;
+  border: thin solid #DCE0E0;
+  height: 42px;
+}
+.btnpink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 42px;
+  background-color: #FF7E82;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  border-bottom-color: red;
+}
+.row .carousel{
+  display: flex;
+}
+.carousel #description h2{
+  color: rgb(72, 72, 72);
+  font-size: 26px;
+  font-weight: 700;
+}
+#bodycolor{
+  background-color: #EDEFED;
+  padding-bottom: 25px;
+}
+.ontry{
+  background-color: #EDEFED;
+}
+.carousel1{
+  cursor: pointer;
+  background-image: url("../gallery/carousel1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 344px;
+
+}
+#description{
+  background-color: white;
+  text-align: center;
+  padding-top: 50px;
+  height: 344px;
+}
+.carousel #description p{
+  color: rgb(72, 72, 72);
+  font-size: 16px;
+}
+.entrediv{
+  text-align: center;
+}
+.entrediv h3{
+  color: rgb(72, 72, 72);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.entrediv p{
+  color: rgb(72, 72, 72);
+  font-size: 16px;
+  margin-top: 0;
+}
+.lille{
+  background-image: url("../gallery/lille.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+.bruxelles{
+  background-image: url("../gallery/bruxelles.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+.londres{
+  background-image: url("../gallery/londres.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+.txtphoto{
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 140px;
+}
+.buttonmid{
+  border-style: solid;
+  border-color: #C4C4C4;
+  height: 42px;
+  width: 330px;
+  color: #484848;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.lisbonne{
+  background-image: url("../gallery/lisbonne.jpeg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: cover;
+}
+.denise{
+  background-image: url("../gallery/chezdenise.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 326px;
+}
+.amsterdam{
+  background-image: url("../gallery/amsterdam.jpeg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: cover;
+
+}
+.newyork{
+  background-image: url("../gallery/newyork.jpeg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: cover;
+}
+.romantic{
+  background-image: url("../gallery/romantic.jpeg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: cover;
+}
+.cheznicole{
+  background-image: url("../gallery/cheznicole.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 326px;
+}
+.rome{
+  background-image: url("../gallery/rome.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 326px;
+}
+.berlin{
+  background-image: url("../gallery/berlin.jpeg");
+  background-repeat: no-repeat;
+  height: 326px;
+}
+.bordeaux{
+  background-image: url("../gallery/bordeaux.jpeg");
+  background-repeat: no-repeat;
+  height: 326px;
+
+}
+.biarritz{
+  background-image: url("../gallery/biarritz.jpg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: cover;
+}
+.sanfrancisco{
+  background-image: url("../gallery/sanfrancisco.jpg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: covers;
+
+}
+.newyork2{
+  background-image: url("../gallery/newyork2.jpg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: cover;
+}
+.londres2{
+  background-image: url("../gallery/londres.jpg");
+  background-repeat: no-repeat;
+  height: 326px;
+  background-size: cover;
+}
+
+.description h2{
+  font-size: 60px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+.description p{
+  font-size: 24px !important;
+  font-style: 400 !important;
+}
+.nouveau{
+  background-image: url("../gallery/soleil.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+
+}
+.nouveau2{
+  background-image: url("../gallery/belo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nouveau3{
+  background-image: url("../gallery/chezvous.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.padding{
+  padding: 20px;
+}
+.photo1{
+  background-image: url("../gallery/velo.png");
+  background-repeat: no-repeat;
+  background-color: #00A295;
+  height: 492px;
+  background-position: center;
+  cursor: pointer;
+}
+.photo2{
+  background-image: url("../gallery/vieux.jpg");
+  background-repeat: no-repeat;
+  height: 492px;
+  cursor: pointer;
+}
+.photo3{
+  background-image: url("../gallery/couple.jpg");
+  background-repeat: no-repeat;
+  height: 492px;
+  cursor: pointer;
+}
+.photo4{
+  background-image: url("../gallery/patricia.jpg");
+  background-repeat: no-repeat;
+  height: 492px;
+  cursor: pointer;
+}
+.gallerie h1{
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 90%;
+}
+.gallerie p{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.gallerie a{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+}
+footer{
+  background-image: url(../gallery/footer.png);
+  background-color: #2B2D2E;
+}
+.selecteurposition{
+  margin-top: 5%;
+}
+
+.selecteur1{
+  background-color: #484848;
+  border-color: #484848;
+  color: white;
+  margin-bottom: 10px;
+}
+.selecteur2{
+background-color: #484848;
+border-color: #484848;
+color: white;
+}
+.footerlist h2{
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.footerlist a{
+  font-size: 14px;
+  color: white;
+}
+.footericon{
+  border-top: thin solid #484848;
+}
+.footericon h3{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+#footericonlist i{
+  color: white;
+  padding-left: 30px;
+  cursor: pointer;
+}
+#footericonlist{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.footericon p{
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (max-width: 640px){
+  #recherche{
+    display: none;
+  }
+  #date{
+    display: none;
+  }
+  .selectoption{
+    display: none;
+  }
+  .rome{
+    display: none;
+  }
+  .lille{
+width: 100%;
+  }
+  .newyork{
+    display: none;
+  }
+  .romantic{
+    display: none;
+  }
+  .berlin{
+    display: none;
+  }
+  .bordeaux{
+    display: none;
+  }
+  .biarritz{
+    display: none;
+  }
+  .buttonmid{
+    display: none;
+  }
+  .basdepage{
+    display: none;
+  }
+  .lienfooter{
+    display: none;
+  }
+  .denise{
+    margin: 0;
+  }
+  .carousel1{
+  width: 360px;
+  }
+  .carousel2{
+    display: none;
+  }
+  #description{
+    display: none;
+  }
+  #description2 h2{
+    padding-top: 20%;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
+  .front h1{
+    font-size: 31px;
+    text-align: center;
+    color: white;
+  }
+  .front p{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+  }
+  #description2 p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+  #description2 .btn{
+    display: block;
+    font-size: 15px;
+  }
+  .selecteurposition{
+    margin-top: 15%;
+  }
+  .container{
+    width: 100%;
+  }
+  .txtphoto{
+    margin-top: 0px;
+  }
+
+
+}
+@media screen and (min-width: 640px){
+  #description2{
+    display: none;
+  }

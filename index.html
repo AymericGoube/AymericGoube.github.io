@@ -1,13 +1,180 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>test</title>
-    <link rel="stylesheet" href="css/styleLevel1.css">
-        <script type="text/javascript" src="js/phaser.min.js"></script>
-  </head>
-  <body>
-    <script src="js/scriptlevel1.js">
-    </script>
-  </body>
-</html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+  <script src="https://use.fontawesome.com/6bf1860640.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  <title>PORTFOLIO</title>
+</head>
+<body>
+  <header class="accueil">
+    <nav>
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="hide-on-med-and-down">
+          <li><a href=".accueil" class="js-scrollTo">Accueil</a></li>
+          <li><a href=".profil" class="js-scrollTo">Mon profil</a></li>
+          <li><a href=".competence" class="js-scrollTo">Compétences</a></li>
+          <li><a href=".Experience" class="js-scrollTo">Formation</a></li>
+          <li><a href=".Portfolio" class="js-scrollTo">Mes travaux</a></li>
+          <li><a href=".Formulaire" class="js-scrollTo">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="imageaccueil">
+    <div class="parallax-container try">
+      <div class="parallax"><img src="image/ordi4.jpg" alt="" style="pointer-events: none;"></div>
+      <h1>Aymeric Goube</h1><h2>DESIGNER & WEB DEVELOPPER</h2></div>
+    </div>
+    <div class="profil">
+      <h5>Mon profil :</h5>
+      <p>Titulaire du BTS SIO et fort d'une
+        formation intensive
+        d'intégrateur/développeur WEB,<br> je
+        suis motivé et autonome afin de
+        répondre à vos attentes et
+        satisfaire aux besoins de vos
+        clients.</p>
+
+        <a href="image/AGCV.pdf" id="cv">Télécharger mon CV</a>
+      </div>
+
+      <div class="parallax-container deuxiemeImage">
+        <div class="parallax"><img src="image/image3.jpg" alt=""style="pointer-events: none;"></div>
+      </div>
+      <div class="competence">
+        <h3>Compétence</h3>
+        <ul>
+          <li><p>PHP</p><div id="competence1" class="barreCompetence">
+          </div><p class="pourcentage">50%</p></li>
+          <li><p>JAVASCRIPT</p><div id="competence2" class="barreCompetence">
+          </div><p class="pourcentage">60%</p></li>
+          <li><p>HTML et CSS</p><div id="competence3" class="barreCompetence">
+          </div><p class="pourcentage">80%</p></li>
+          <li><p>GITHUB</p><div class="barreCompetence" id="competence4">
+          </div><p class="pourcentage">60%</p></li>
+          <li><p>UBUNTU</p><div class="barreCompetence" id="competence5">
+          </div><p class="pourcentage">80%</p></li>
+        </ul>
+      </div>
+      <div class="MillieuDePage">
+        <div class="container Experience">
+          <h3>Formation</h3>
+          <div class="row">
+
+            <div class="col s1 offset-s6 barrebleu" id="expe1">
+            </div>
+
+            <div class="col s4 offset-s1 texteExperience1">
+              <h5>2016-2017</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s4 offset-s1 texteExperience2">
+                <h5>2015-2016</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+                <div class="col s1 offset-s1 barrebleu" id="expe2">
+                </div>
+              </div>
+              <div class="row">
+
+                <div class="col s1 offset-s6 barrebleu" id="expe3">
+                </div>
+
+                <div class="col s4 offset-s1 texteExperience3">
+                  <h5>2014-2015</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s4 offset-s1 texteExperience4">
+                    <h5>2013-2014</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="col s1 offset-s1 barrebleu" id="expe4">
+                    </div>
+                  </div>
+                </div>
+                <div class="container Portfolio">
+                  <h5>Mes derniers travaux</h5>
+                  <div class="row">
+                      <div class="col s8 sitePortfolio" id="spotify">
+                        <a href="spotify/index.html" class="imageportfolio">
+                      <video autoplay loop muted width="577">
+                        <source src="video/salut-1.ogv" type="video/ogg">
+                      </video>
+                        </a>
+                      </div>
+<a href="airbnb/index.html" class="imageportfolio">
+                      <div class="col s4 sitePortfolio" id="AirBnB">
+
+                      </div>
+                      </a>
+                        </div>
+                        <div class="row">
+
+                      <div class="col s4 sitePortfolio" id="Mario">
+                        <a href="#" class="imageportfolio">
+                            </a>
+                      </div>
+                    <div class="col s8 sitePortfolio" id="Jeumario">
+                      <a href="mariophaser/index.html" class="imageportfolio">
+                    <video autoplay loop muted width="590" height="330">
+                      <source src="video/mario2.ogv" type="video/ogg">
+                    </video>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="col s12 Formulaire">
+                    <div class="row">
+                      <div class="col s5 offset-s1 Contact">
+                        <h4>Contact</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                      </div>
+                      <div class="col s5">
+                        <div class="col s6 inputFormulaire">
+                          <input type="text" placeholder="Nom">
+                        </div>
+                        <div class="col s6 inputFormulaire">
+                          <input type="email" placeholder="Prenom">
+                        </div>
+                        <div class="col s12 inputFormulaire">
+                          <input type="text" placeholder="Sujet">
+                        </div>
+                        <div class="col s12 inputFormulaire">
+                          <textarea placeholder="Message" rows="8" cols="80"></textarea>
+                        </div>
+                        <div class="col s12">
+                          <input type="submit" id="submit" value="Envoyer">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="iconesbasdepage">
+                      <ul>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a></li>
+                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i>
+                        </a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <footer>Developped by Aymeric Goube</footer>
+              <script type="text/javascript" src="js/script.js">
+              </script>
+            </body>
+            </html>

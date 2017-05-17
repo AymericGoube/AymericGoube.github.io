@@ -1,0 +1,292 @@
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AirBNB</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a class="waves-effect waves-teal btn-flat logoair"></a>
+        <img class="loupe" src="gallery/loupe.png" alt="" /><input type="text" id="textarea" class="form-control" placeholder="Où ?">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">
+            <button type="button"  id="beinghost">Devenez hôte</button></a>
+            <li><a class="waves-effect waves-teal btn-flat yo ">Aide</a></li>
+            <li><a class="waves-effect waves-teal btn-flat yo ">Inscription</a></li>
+            <li><a class="waves-effect waves-teal btn-flat yo ">Connexion</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col s12 front"><h1>VIVEZ Là-bas</h1><br><p>Réservez des logements auprès d'hôtes locaux et vivez là-bas, comme chez vous. </p>
+        <button class="video"><i class="large material-icons playicon">play_arrow</i></button>
+      </div>
+    </div>
+    <div id="recherche">
+      <h2>Recherchez parmi plus de 2 millions de logements dans plus de 190 pays </h2>
+      <form id="formlogement" method="post">
+        <input type="text" name="name" id="lieu" value="Où?">
+        <section id="date">
+          <p>Arrivée</p><i class="large material-icons arrow">trending_flat</i><p id="dep">Départ</p>
+        </section>
+
+        <select class="browser-default selectoption">
+          <option value="1">1 voyageur</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+        <a class="waves-effect waves-light btnpink">Rechercher</a>
+      </form>
+    </div>
+    <div id="bodycolor">
+      <div class="row ontry">
+        <div class="col s12 m10 offset-m1 carousel">
+          <div class="col s12 carousel1">
+            <div id="description2">
+              <h2>Ouvrez la porte à un voyageur et à une nouvelle vie</h2><p>Gagnez de l'argent en accueillant des voyageurs. </p>
+              <a class="waves-effect waves-light btn">Estimer mes revenus</a>
+            </div>
+          </div>
+          <div id="description">
+            <h2>Ouvrez la porte à un voyageur et à une nouvelle vie</h2><p>Gagnez de l'argent en accueillant des voyageurs. </p>
+            <a class="waves-effect waves-light btn">Estimer mes revenus</a>
+          </div>
+        </div>
+      </div>
+      <section class="entrediv">
+        <h3>Juste pour le week-end</h3>
+        <p>Découvrez de nouveaux logements incroyables près de chez vous.</p>
+      </section>
+      <div class="container">
+        <div class="row premierephoto">
+          <div class="col s12 m4">
+            <div class="col s12 m12 lille">
+              <h1 class="txtphoto">Lille</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="col s12 m12 bruxelles">
+              <h1 class="txtphoto">Bruxelles</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="col s12 m12 londres">
+              <h1 class="txtphoto">Londres</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="buttonmid">Voir toutes les destinations</button>
+      <section class="entrediv">
+        <h3>Explorez le monde</h3>
+        <p>Découvrez les destinations les plus prisées à travers le monde. </p>
+      </section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12  m8">
+            <div class="col s12 m12 lisbonne">
+              <h1 class="txtphoto">Lisbonne</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="col s12 m12 denise">
+              <h1 class="txtphoto">Chez Denise</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="amsterdam">
+              <h1 class="txtphoto">Amsterdam</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="newyork">
+              <h1 class="txtphoto">New York</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="romantic">
+              <h1 class="txtphoto">Escapade romantique à Venise</h1>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="cheznicole">
+              <h1 class="txtphoto">Chez Nicole</h1>
+            </div>
+          </div>
+          <div class="col s12 m8">
+            <div class="rome">
+              <h1 class="txtphoto">Rome</h1>
+            </div>
+          </div>
+
+          <div class="col s3 m4">
+            <div class="berlin">
+              <h1 class="txtphoto">Berlin</h1>
+            </div>
+          </div>
+          <div class="col s3 m4">
+            <div class="bordeaux">
+              <h1 class="txtphoto">Bordeaux</h1>
+            </div>
+          </div>
+          <div class="col s3 m4">
+            <div class="biarritz">
+              <h1 class="txtphoto">Surf à Biarritz</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="entrediv">
+        <h3>Nouveau ! Les Guides</h3>
+        <p>Découvrez des centaines de bonnes adresses recommandées par les hôtes Airbnb </p>
+      </section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="col s12 m12 sanfrancisco">
+              <h1 class="txtphoto">San Francisco</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="col s12 m12 newyork2">
+              <h1 class="txtphoto">New York</h1>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="col s12 m12 londres2">
+              <h1 class="txtphoto">Londres</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="buttonmid">Découvrir tout les Guides</button>
+    </div>
+    <div class="carousel carousel-slider center carousel2" data-indicators="true">
+      <div class="carousel-item red white-text nouveau" href="#one!">
+        <h2>Chez vous, ailleurs</h2>
+        <p class="white-text">Découvrez l’accueil chaleureux que les hôtes Airbnb vous réservent à travers le monde. </p>
+        <button class="video"><i class="large material-icons playicon">play_arrow</i></button>
+      </div>
+      <div class="carousel-item amber white-text nouveau2" href="#two!">
+        <h2>Nous vous présentons le Bélo</h2>
+        <p class="white-text">Chez vous, ailleurs : l’histoire d’un symbole. </p>
+        <button class="video"><i class="large material-icons playicon">play_arrow</i></button>
+      </div>
+      <div class="carousel-item green white-text nouveau3" href="#three!">
+        <h2>Chez vous, où que vous alliez </h2>
+        <p class="white-text">Grâce à Airbnb, vous vous sentirez chez vous en vacances. De villas de luxe aux appartements conviviaux parfaits pour les séjours en vacances, vous trouverez le logement de vos rêves. </p>
+        <a class="waves-effect waves-light btn">Commencez à explorer</a>
+      </div>
+    </div>
+  </div>
+  <div class="basdepage">
+    <section class="entrediv">
+      <h3>Notre communauté</h3>
+    </section>
+    <script>
+    $('.carousel.carousel-slider').carousel({full_width: true});
+    </script>
+    <div class="row">
+      <div class="col s12 gallerie">
+        <div class="col s3">
+          <div class="col s12 photo1 padding"><h1>Appropriez-vous Airbnb</h1><p>Créez votre symbole, racontez votre histoire</p></div></div>
+          <div class="col s3">
+            <div class="col s12 photo2 padding"><h1>Garry et Lianne</h1><p>À l'autre bout du monde ou dans leur région, Garry et Lianne sont constamment à la recherche d'expériences locales. </p><br><a href="">En savoir plus sur le voyage avec Airbnb.</a></div></div>
+            <div class="col s3">
+              <div class="col s12 photo3 padding"><h1>Airbnb pour les entreprises</h1><p>Comme chez vous même en voyage d'affaires !</p><br><a href="">Enregistrez votre équipe sur Airbnb</a></div></div>
+              <div class="col s3">
+                <div class="col s12 photo4 padding"><h1>Patricia</h1><p>                  Photographe professionnelle, Patricia aime faire découvrir la scène artistique de Shanghai à ses voyageurs. </p><br><a href="">Apprenez-en plus sur l'hébergement avec Airbnb.</a></div></div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <div class="row">
+              <div class="col s12 footer">
+                <div class="col s12 m2 offset-m2 selecteurposition">
+                  <select class="browser-default selecteur1">
+                    <option value="" disabled selected>Français</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <select class="browser-default selecteur2">
+                    <option value="" disabled selected>EUR</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                </div>
+                <div class="lienfooter">
+                  <div class="col s2 offset-s1 footerlist">
+                    <h2>Société</h2>
+                    <ul>
+                      <a href=""><li>À propos</li></a>
+                      <a href=""><li>Carrières</li></a>
+                      <a href=""><li>Presse</li></a>
+                      <a href=""><li>Blog</li></a>
+                      <a href=""><li>Aide</li></a>
+                      <a href=""><li>Règles</li></a>
+                      <a href=""><li>Réponse aux catastrophes</li></a>
+                      <a href=""><li>Conditions générales et confidentialité</li></a>
+                    </ul>
+                  </div>
+                  <div class="col s2 footerlist">
+                    <h2>Découvrir</h2>
+                    <ul>
+                      <a href=""><li>Confiance et sécurité</li></a>
+                      <a href=""><li>Crédit voyage</li></a>
+                      <a href=""><li>La sélection Airbnb</li></a>
+                      <a href=""> <li>Application mobile</li></a>
+                      <a href=""><li>Airbnb Action</li></a>
+                      <a href=""> <li>Voyage d'affaires</li></a>
+                      <a href=""> <li>Plan du site</li></a>
+                    </ul>
+                  </div>
+                  <div class="col s2 footerlist">
+                    <h2>Hébergement</h2>
+                    <ul>
+                      <a href=""><li>Pourquoi être hôte</li></a>
+                      <a href=""><li>Hospitalité</li></a>
+                      <a href=""><li>Hébergement responsable</li></a>
+                      <a href=""><li>Sécurité à la maison</li></a>
+                      <a href="">  <li>Réservation instantanée</li></a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s10 offset-s1 footericon">
+                  <h3>Rejoignez-nous sur</h3>
+                  <ul id="footericonlist">
+                    <li><div class="cerclefooter"><i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div></li>
+                    <li><div class="cerclefooter"><i class="fa fa-google-plus" aria-hidden="true"></i></div></li>
+                    <li><div class="cerclefooter"><i class="fa fa-twitter" aria-hidden="true"></i></div></li>
+                    <li><div class="cerclefooter"><i class="fa fa-linkedin" aria-hidden="true"></i></div></li>
+                    <li><div class="cerclefooter"><i class="fa fa-pinterest" aria-hidden="true"></i>
+                    </i></div></li>
+                    <li><div class="cerclefooter"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </i></div></li>
+                    <li><div class="cerclefooter"><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </i></div></li>
+                  </ul>
+                  <p>© Airbnb, Inc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </body>
